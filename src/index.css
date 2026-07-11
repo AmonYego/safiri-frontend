@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-blue-950 text-gray-200 text-lg; /* Set navy background and light base text */
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom scrollbar for a more modern look */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #1e3a8a; /* Darker track */
+}
+::-webkit-scrollbar-thumb {
+  background: #93c5fd; /* Lighter thumb */
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #dbeafe;
+}
